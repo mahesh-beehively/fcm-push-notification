@@ -30,6 +30,7 @@
 		3A6D628C1E20430000D0D2C7 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6D62851E20430000D0D2C7 /* GoogleSymbolUtilities.framework */; };
 		3A6D628D1E20430000D0D2C7 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6D62861E20430000D0D2C7 /* GoogleToolboxForMac.framework */; };
 		3A6D62911E2044AB00D0D2C7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6D62901E2044AB00D0D2C7 /* libz.tbd */; };
+		3D5B63E11E8E3E4F007FE1BA /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5B63B51E8E3DD2007FE1BA /* libRCTAnimation.a */; };
 		4339BFE81DAEE9D100F53B62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4339BFE71DAEE9D100F53B62 /* GoogleService-Info.plist */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		FAE94A218EB64E38BF8D8E9B /* libRNFIRMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 692E216422234A4CB6A7A838 /* libRNFIRMessaging.a */; };
@@ -190,6 +191,48 @@
 			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
 			remoteInfo = "jschelpers-tvOS";
 		};
+		3D5B63B41E8E3DD2007FE1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5B63AE1E8E3DD2007FE1BA /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTAnimation;
+		};
+		3D5B63B61E8E3DD2007FE1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5B63AE1E8E3DD2007FE1BA /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28201D9B03D100D4039D;
+			remoteInfo = "RCTAnimation-tvOS";
+		};
+		3D5B63D41E8E3DE0007FE1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5B63CF1E8E3DE0007FE1BA /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTAnimation;
+		};
+		3D5B63D61E8E3DE0007FE1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5B63CF1E8E3DE0007FE1BA /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28201D9B03D100D4039D;
+			remoteInfo = "RCTAnimation-tvOS";
+		};
+		3D5B63DD1E8E3E02007FE1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5B63D81E8E3E02007FE1BA /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTAnimation;
+		};
+		3D5B63DF1E8E3E02007FE1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5B63D81E8E3E02007FE1BA /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28201D9B03D100D4039D;
+			remoteInfo = "RCTAnimation-tvOS";
+		};
 		4339BFCF1DAEBA3900F53B62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C7DEB70C413E484CBFA6AC45 /* RNFIRMessaging.xcodeproj */;
@@ -242,6 +285,9 @@
 		3A6D62861E20430000D0D2C7 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = frameworks/GoogleToolboxForMac.framework; sourceTree = "<group>"; };
 		3A6D628E1E20449400D0D2C7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		3A6D62901E2044AB00D0D2C7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3D5B63AE1E8E3DD2007FE1BA /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "/Users/mahesh/projects/react-native-fcm/Examples/simple-fcm-client/node_modules/react-native/Libraries/Settings/../NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<absolute>"; };
+		3D5B63CF1E8E3DE0007FE1BA /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		3D5B63D81E8E3E02007FE1BA /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		4339BFE21DAEBB3500F53B62 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		4339BFE31DAEBB4800F53B62 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		4339BFE61DAED4D900F53B62 /* SimpleFcmClient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = SimpleFcmClient.entitlements; path = SimpleFcmClient/SimpleFcmClient.entitlements; sourceTree = "<group>"; };
@@ -265,6 +311,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5B63E11E8E3E4F007FE1BA /* libRCTAnimation.a in Frameworks */,
 				3A6D62911E2044AB00D0D2C7 /* libz.tbd in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				3A6D628B1E20430000D0D2C7 /* GoogleInterchangeUtilities.framework in Frameworks */,
@@ -400,6 +447,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3D5B63AF1E8E3DD2007FE1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B63B51E8E3DD2007FE1BA /* libRCTAnimation.a */,
+				3D5B63B71E8E3DD2007FE1BA /* libRCTAnimation-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5B63D01E8E3DE0007FE1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B63D51E8E3DE0007FE1BA /* libRCTAnimation.a */,
+				3D5B63D71E8E3DE0007FE1BA /* libRCTAnimation-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5B63D91E8E3E02007FE1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B63DE1E8E3E02007FE1BA /* libRCTAnimation.a */,
+				3D5B63E01E8E3E02007FE1BA /* libRCTAnimation-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4339BFC21DAEBA3900F53B62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -411,6 +485,8 @@
 		4339BFD11DAEBA4B00F53B62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D5B63CF1E8E3DE0007FE1BA /* RCTAnimation.xcodeproj */,
+				3D5B63AE1E8E3DD2007FE1BA /* RCTAnimation.xcodeproj */,
 				3A6D62901E2044AB00D0D2C7 /* libz.tbd */,
 				3A6D628E1E20449400D0D2C7 /* libc++.tbd */,
 				3A6D62801E20430000D0D2C7 /* FirebaseAnalytics.framework */,
@@ -436,6 +512,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				3D5B63D81E8E3E02007FE1BA /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -536,8 +613,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 7GX5PDNNM3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -564,6 +640,18 @@
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
+				},
+				{
+					ProductGroup = 3D5B63AF1E8E3DD2007FE1BA /* Products */;
+					ProjectRef = 3D5B63AE1E8E3DD2007FE1BA /* RCTAnimation.xcodeproj */;
+				},
+				{
+					ProductGroup = 3D5B63D91E8E3E02007FE1BA /* Products */;
+					ProjectRef = 3D5B63D81E8E3E02007FE1BA /* RCTAnimation.xcodeproj */;
+				},
+				{
+					ProductGroup = 3D5B63D01E8E3DE0007FE1BA /* Products */;
+					ProjectRef = 3D5B63CF1E8E3DE0007FE1BA /* RCTAnimation.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
@@ -762,6 +850,48 @@
 			remoteRef = 3A6D627D1E20428000D0D2C7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		3D5B63B51E8E3DD2007FE1BA /* libRCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTAnimation.a;
+			remoteRef = 3D5B63B41E8E3DD2007FE1BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D5B63B71E8E3DD2007FE1BA /* libRCTAnimation-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTAnimation-tvOS.a";
+			remoteRef = 3D5B63B61E8E3DD2007FE1BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D5B63D51E8E3DE0007FE1BA /* libRCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTAnimation.a;
+			remoteRef = 3D5B63D41E8E3DE0007FE1BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D5B63D71E8E3DE0007FE1BA /* libRCTAnimation-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTAnimation-tvOS.a";
+			remoteRef = 3D5B63D61E8E3DE0007FE1BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D5B63DE1E8E3E02007FE1BA /* libRCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTAnimation.a;
+			remoteRef = 3D5B63DD1E8E3E02007FE1BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D5B63E01E8E3E02007FE1BA /* libRCTAnimation-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTAnimation-tvOS.a";
+			remoteRef = 3D5B63DF1E8E3E02007FE1BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		4339BFD01DAEBA3900F53B62 /* libRNFIRMessaging.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -909,10 +1039,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SimpleFcmClient/SimpleFcmClient.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 7GX5PDNNM3;
+				DEVELOPMENT_TEAM = 67XF6TEEM5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -933,6 +1063,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = fcm.simplefcmclient;
 				PRODUCT_NAME = SimpleFcmClient;
+				PROVISIONING_PROFILE = "86c8638a-5f09-46d6-8e1b-b4bcf53b2c9a";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: *";
 				USER_HEADER_SEARCH_PATHS = ./SimpleFcmClient/;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -945,7 +1077,7 @@
 				CODE_SIGN_ENTITLEMENTS = SimpleFcmClient/SimpleFcmClient.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7GX5PDNNM3;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -966,6 +1098,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = fcm.simplefcmclient;
 				PRODUCT_NAME = SimpleFcmClient;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = ./SimpleFcmClient/;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

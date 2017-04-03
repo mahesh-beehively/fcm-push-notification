@@ -49,9 +49,9 @@ export default class PushController extends Component {
                   break;
               }
             }
-      this.showLocalNotification(notif);
+      this.showLocalNotification(notif.notification);
     });
-
+    // this.showLocalNotification({title: 'abc'});
     this.refreshTokenListener = FCM.on(FCMEvent.RefreshToken, token => {
       console.log("TOKEN (refreshUnsubscribe)", token);
       this.props.onChangeToken(token);
@@ -60,10 +60,10 @@ export default class PushController extends Component {
 
   showLocalNotification(notif) {
     FCM.presentLocalNotification({
-      title: notif.title,
-      body: notif.body,
+      title: notif.title || 'test',
+      body: notif.body || 'Test body',
       priority: "high",
-      click_action: notif.click_action,
+      //click_action: notif.click_action,
       show_in_foreground: true,
       local: true
     });

@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>921337447974-nkp854vmsbldse8r7um80tj8h93h21f5.apps.googleusercontent.com</string>
+	<string>467780157083-gvl9vq1594p1qch45q4infhci9mbttvn.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.921337447974-nkp854vmsbldse8r7um80tj8h93h21f5</string>
+	<string>com.googleusercontent.apps.467780157083-gvl9vq1594p1qch45q4infhci9mbttvn</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDe8YJFybMewQFa6PVT7M01hb8K7Ct6AnU</string>
+	<string>AIzaSyA__Zi6Nw5sl2D2nB_aJIeI8l2kUvnmqYg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>921337447974</string>
+	<string>467780157083</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>fcm.simplefcmclient</string>
 	<key>PROJECT_ID</key>
-	<string>simplefcmclient-d7db1</string>
+	<string>drive-beehively-162407</string>
 	<key>STORAGE_BUCKET</key>
-	<string>simplefcmclient-d7db1.appspot.com</string>
+	<string>drive-beehively-162407.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:921337447974:ios:b71c73a2fedb7a5a</string>
+	<string>1:467780157083:ios:b71c73a2fedb7a5a</string>
 	<key>DATABASE_URL</key>
-	<string>https://simplefcmclient-d7db1.firebaseio.com</string>
+	<string>https://drive-beehively-162407.firebaseio.com</string>
 </dict>
 </plist>
